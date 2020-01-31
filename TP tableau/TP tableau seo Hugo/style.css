@@ -1,0 +1,35 @@
+img{
+    height: 50px;
+    width: 50px;}
+caption{
+        background-color: #487AC9;
+        font-size: xx-large ;
+        color: white;
+        font-family: 'Alatsi', sans-serif;
+    }
+        
+
+
+table{
+        margin-left: 700px;
+        background-color: #E8E9E9
+
+
+        ;
+        height: 300px;
+        width: 500px;
+        
+    }
+    #titre{
+        color: #487AC9;
+        font-size: xx-large;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #texte{
+        font-size: x-small;
+    }
+    a{
+        text-decoration:none;
+        color: #487AC9
+    
+    }

@@ -1,0 +1,241 @@
+body{
+    height: auto;
+    width:auto;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-image: url("img/dinosaure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:970px;
+    width:100%;
+}
+
+header nav{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.548);
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+
+header nav p{
+    display: inline-block;
+    color: white;
+    margin: 0px 30px;
+    padding: 28px;
+    font-size: 15px;
+}
+
+header nav p a{
+    text-decoration: none;
+    color:white;
+}
+
+header nav p a:hover{
+    border-top: 1px solid white;
+}
+
+header nav button{
+    background-color: #1C5F81;
+    color: white;
+    border: none;
+    padding: 7px 33px;
+}
+
+header nav button i{
+    transform: rotate(-45deg);
+}
+
+#logojura1{
+    width: 40%;
+    margin-left: 31%;
+    margin-top: 110px;
+}
+
+#clim{
+    position: absolute;
+    right: 0;
+    top: 711px;
+}
+
+#dinosaure{
+    margin-top:100px;
+    text-align: center;
+    margin-left:31%;
+    width:750px;
+}
+
+div h1{
+    letter-spacing: 3px;
+    font-size: 43px;
+}
+
+#dinosaure p{
+    text-align: left;
+    word-spacing: 5px;
+    margin-top: 35px;
+    line-height: 25px;
+}
+
+#dinosaure #boxphotoentre img{
+    width: 746px;
+}
+
+#dinosaure p span{
+    font-weight: 800;
+}
+
+#dinosaure h4{
+    font-size: 25px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+#dinosaure h4 span{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#dinosaure button{
+    background-color: #1C5F81;
+    color: white;
+    border: none;
+    padding: 15px 65px;
+    margin-top: 20px;
+}
+
+#paiement{
+    width:1000px;
+    margin-left:24%;
+    margin-top:175px;
+}
+
+#paiement h3{
+    font-size: 31px;
+    letter-spacing: 6px;
+}
+
+#paiement span{
+    font-weight: 700;
+}
+
+#billet{
+    margin-top: 40px;
+}
+
+#tarifs button{
+    background-color: #1C5F81;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    margin-top: 20px;
+}
+
+#tarifs{
+    border-bottom: 1px solid silver;
+    width:46%;
+    height:450px;
+    float:left;
+}
+
+#transports{
+    float:right;
+    width:46%;
+}
+
+#metro{
+    margin-top:30px;
+}
+
+#horaires{
+    float:left;
+    margin-top:30px;
+}
+
+#partenaires{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#partenaires img{
+    margin:50px 100px;
+    height:50px;
+}
+
+#logos{
+    height:90px;
+}
+
+footer{
+    margin-top: 200px;
+    background-color: black;
+    height: 400px;
+}
+
+#mentions{
+    width:1000px;
+    margin-left: 24%;
+    position: absolute;
+    bottom: -3400px;
+}
+
+#mentions p{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#mentions a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#logojura2{
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+button:hover{
+    background-color: white;
+    color:#1C5F81;
+}
+
+#dinosaure button:hover{
+    background-color: white;
+    color:#1C5F81;
+    border: 1px solid black;
+}
+
+#tarifs button:hover{
+    background-color: white;
+    color:#1C5F81;
+    border: 1px solid black;
+}
+
+#boxphotoentre{
+    border: 2px solid transparent;
+    z-index: 6;
+    height: 496px;
+    width: 746px;
+    overflow: hidden;
+    margin: 0;
+}
+
+#photoentre:hover{
+    transition-duration: 1s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+
+header nav a:focus{
+    border-top: 2px solid rgba(141, 174, 79, 0.719);
+}

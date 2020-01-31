@@ -1,0 +1,320 @@
+body{
+    margin: 0px;
+    background-image: url(img/background.png);
+    height:2000px;
+    width:100%;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-color: rgb(101,193,190);
+    font-size: 18px;
+    position: fixed;
+    top:0px;
+    margin:0px;
+    width:100%;
+    z-index: 1000;
+}
+
+header p{
+    display: inline-block;
+    margin: 0px;
+    font-family: 'Courgette', cursive;
+    font-size: 27px;
+    padding:19px;
+    color:white;
+}
+
+header a{
+    float:right;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding:25px;
+}
+
+header :nth-child(4){
+    background-color: black;
+}
+
+.rainbow{
+    text-align: center;
+    color: rgb(101,193,190);
+    font-family: 'Courgette', cursive;
+}
+
+.rainbow h1{
+    display:inline-block;
+    margin:0px;
+    position: absolute;
+    left:40%;
+    top:225px;
+}
+
+.rainbow img{
+    position: absolute;
+    left:35%;
+    top:140px;
+}
+
+.container{
+    position: absolute;
+    background-color: white;
+    width:1185px;
+    height:1500px;
+    left:20%;
+    top:300px;
+    padding:20px;
+    box-shadow: 0 0 5em gray;
+    border-radius: 5px 5px / 5px 5px;
+    z-index: 1;
+}
+
+.container .leprincipe i{
+    position: absolute;
+    top:40px;
+    color:rgb(101,193,190);
+}
+
+.container .leprincipe h2{
+    position: absolute;
+    top:24px;
+    left:65px;
+    color:rgb(101,193,190);
+    font-family: 'Courgette', cursive;
+}
+
+.plorem1{
+    position: absolute;
+    top:90px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.plorem2{
+    position: absolute;
+    top:238px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .noslicornes i{
+    position: absolute;
+    top:400px;
+    color:rgb(101,193,190);
+}
+
+.container .noslicornes h2{
+    position: absolute;
+    top:384px;
+    left:65px;
+    color:rgb(101,193,190);
+    font-family: 'Courgette', cursive;
+}
+
+.licorne1{
+    position: absolute;
+    top:470px;
+    overflow: hidden;
+}
+
+.licorne1 img{
+    width:80%;
+    transition-duration:1s;
+}
+
+.licorne1:hover{
+    transition-duration:0.7s;
+    transform: scale(1.10);
+}
+
+.licorne1 p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.747);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    width:80%;
+    position: absolute;
+    left: 0px;
+    top: 191px;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+.licorne2{
+    position: absolute;
+    top:470px;
+    left:320px;
+}
+
+.licorne2 img{
+    width:80%;
+    transition-duration:1s;
+}
+
+.licorne2:hover{
+    transition-duration:0.7s;
+    transform: scale(1.10);
+}
+
+.licorne2 p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.747);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    width:80%;
+    position: absolute;
+    left: 0px;
+    top: 191px;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+.licorne3{
+    position: absolute;
+    top:470px;
+    left:620px;
+}
+
+.licorne3 img{
+    width:80%;
+    transition-duration:1s;
+}
+
+.licorne3:hover{
+    transition-duration:0.7s;
+    transform: scale(1.10);
+}
+
+.licorne3 p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.747);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    width:80%;
+    position: absolute;
+    left: 0px;
+    top: 191px;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+.licorne4{
+    position: absolute;
+    top:470px;
+    left:920px;
+    width:240px;
+    height:240px;
+}
+
+.licorne4 img{
+    width:240px;
+    height:240px;
+    transition-duration: 1s;
+    display: block;
+}
+
+.licorne4:hover{
+    transition-duration:0.7s;
+    transform: scale(1.10);
+}
+
+.licorne4 p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.747);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    width:100%;
+    position: absolute;
+    left: 0px;
+    top: 191px;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+.container .noustrouver i{
+    position: absolute;
+    top:790px;
+    color:rgb(101,193,190);
+}
+
+.container .noustrouver h2{
+    position: absolute;
+    top:774px;
+    left:65px;
+    color:rgb(101,193,190);
+    font-family: 'Courgette', cursive;
+}
+
+.noustrouver iframe{
+    position: absolute;
+    top: 860px;
+}
+
+.noustrouver h3{
+    position: absolute;
+    top:870px;
+    right:165px;
+    color:rgb(101,193,190);
+    font-family: 'Courgette', cursive;
+}
+
+.noustrouver p{
+    position: absolute;
+    top:920px;
+    right:294px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.newsletter h3{
+    position: absolute;
+    top: 1010px;
+    right: 395px;
+    color:rgb(101,193,190);
+    font-family: 'Courgette', cursive;
+}
+
+.newsletter p{
+    position: absolute;
+    top: 1056px;
+    right: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#email{
+    position: absolute;
+    top: 1116px;
+    right: 312px;
+}
+
+input[type="submit" i]{
+    background-color: rgb(101,193,190);
+    color:white;
+    border: 1px solid black;
+    border-radius: 5px 5px / 5px 5px;
+    position: absolute;
+    top: 1166px;
+    right: 372px;
+    font-size: 16px;
+    padding:10px;
+    outline: none;
+}
+
+footer{
+    height:40px;
+    background-color: rgb(101,193,190);
+    text-align: right;
+    color:white;
+    width:100%;
+    position: absolute;
+    top: 2000px;
+    margin: 0px;
+}
+
+footer p{
+    font-size: 10px;
+    padding:10px;
+    font-family: 'Montserrat', sans-serif;
+}

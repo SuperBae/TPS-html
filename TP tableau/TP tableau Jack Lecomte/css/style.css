@@ -1,0 +1,60 @@
+body{
+    padding:auto;
+    margin:auto;
+}
+
+table{
+   margin:auto;
+   width:725px;
+   font-size:22px;
+   border-collapse: collapse;
+}
+
+thead{
+    background-color:rgb(41, 77, 196);
+    height:300px;
+    font-size:40px;
+    letter-spacing: 10px;
+    text-align:center;
+    padding:0;
+}
+
+td{
+    height:110px;
+    padding:3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titre{
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.refseo{
+    color:rgb(255, 230, 0);
+    font-weight:bolder;
+    font-size:44px;
+}
+
+tbody{
+    background-color:rgb(251, 251, 251);
+}
+
+.majbl{
+    color:rgb(59, 88, 184);
+    font-size:34px;
+    font-style:bold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing:2px;
+}
+
+.minugr{
+    font-size:18px;
+}
+
+p{
+    padding:0;
+    margin-top:0;
+    margin-bottom:20px;
+}
